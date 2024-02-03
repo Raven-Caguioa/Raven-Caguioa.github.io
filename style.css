@@ -98,6 +98,48 @@ li {
     list-style: none;
 }
 
+@media (max-width: 400px) {
+    .title h2 {
+        margin-left: 80px;
+        font-size: 20px;
+        color: white;
+    }
+    .introduction {
+        margin-left: 80px;
+        margin-right: 70px;
+        font-size: 15px;
+    }
+    .btn {
+        margin-left: 80px;
+        border: 2px solid orangered;
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-top: 10px;
+        color: rgb(255, 0, 0);
+    }
+    h3 {
+        margin-top: 20px;
+        margin-bottom: 30px;
+        font-size: 40px;
+        text-align: center;
+        color: white;
+    }
+    .row-cols-md-1 .col {
+        flex: 0 0 50%;
+        max-width: 20%;
+    }
+    .navbar-brand {
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    .navbar-nav {
+        position: fixed;
+        right: 0;
+        margin-right: 10px;
+    }
+}
+
+
 @media  (max-width: 896px) {
     .row-cols-md-1 .col {
         flex: 0 0 50%;
