@@ -1,0 +1,106 @@
+html {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	scroll-behavior: smooth;
+}
+body {
+    background-color: #333;
+}
+span {
+    color: rgb(249, 22, 1);
+}
+.navbar {
+    background-color: rgb(238, 108, 8);
+    filter: opacity(0.8);
+}
+.navbar-brand {
+    margin-left: 20px;
+    font-size: 40px;
+}
+.navbar-nav {
+    position: fixed;
+    right: 0;
+    margin-right: 150px;
+}
+.nav-item {
+    padding-right: 20px;
+    font-size: 25px;
+}
+.nav-item a:hover {
+    color: orangered;
+}
+h1 {
+    margin-top: 50px;
+    margin-left: 100px;
+    color: white;
+}
+h2 {
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: 50px;
+    color: white;
+}
+h3 {
+    margin-top: 70px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+h4 {
+    font-size: 40px;
+}
+h5 {
+    margin-top: 70px;
+    font-size: 40px;
+    font-weight: bold;
+}
+h6 {
+    font-size: 20px;
+}
+p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.introduction {
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 30px;
+}
+.btn {
+    margin-left: 145px;
+    border: 2px solid orangered;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: rgb(255, 0, 0);
+}
+.btn:hover {
+    color: black;
+    background-color: orangered;
+}
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 700px;
+	background-image: url(./imgs/bg.png);
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+    color: white;
+    background-color: grey;
+}
+li {
+    font-size: 20px;
+    list-style: none;
+}
+
+@media  (max-width: 896px) {
+    .row-cols-md-1 .col {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
